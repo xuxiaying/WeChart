@@ -31,7 +31,7 @@
             <block wx:for="{{item.goodsdata}}" wx:for-item="goodsdata" wx:key="goods_id">
               <view class="goods-item">
                   <image src="{{goodsdata.goods_image}}" class="goods-image"></image>
-                  <text>{{goodsdata.goods_name}}</text>
+                  <view>{{goodsdata.goods_name}}</view>
                   <text>{{goodsdata.goods_price}}</text>
               </view>
             </block> 
